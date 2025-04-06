@@ -51,14 +51,14 @@
                 </select>
                 <div class="lgpd">
                     <p class="lgpd-text">Os dados serão mantidos em nossa base de dados, só enquanto for desejado por você. A
-                        qualquer momento, será possível editar ou remover tais dados <a href="https://www.ford.com.br/politica-de-privacidade/">Termos e Condições</a></p>
+                        qualquer momento, será possível editar ou remover tais dados <a target="_blank" href="https://www.ford.com.br/politica-de-privacidade/">Termos e Condições</a></p>
                     <div class="lgpd-checkboxes">
-                        <input type="checkbox" name="" id="accept-term" onclick="sendBtnSwitcher(this)" required>
-                        <p for="accept-term">Sim. Li e concordo com os Termos e Condições'</p>
+                        <input class="lgpd-box" type="checkbox" name="" id="accept-term" onclick="enableButton(this)" required>
+                        <p class="agreement" for="accept-term">Sim. Li e concordo com os Termos e Condições*</p>
                     </div>
                     <div class="lgpd-checkboxes">
-                        <input type="checkbox" name="" id="discount">
-                        <p for="discount">Sim. Também quero receber descontos e novidades.</p>
+                        <input class="lgpd-box" type="checkbox" name="" id="discount">
+                        <p class="agreement" for="discount">Sim. Também quero receber descontos e novidades.</p>
                     </div>
                 </div>
             <button type="submit" class="disable-button">Enviar</button>

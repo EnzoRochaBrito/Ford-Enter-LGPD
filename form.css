@@ -1,3 +1,7 @@
+form button{
+    transition: all .2s;
+}
+
 
 .fordform {
     display: block;
@@ -55,7 +59,6 @@ h2 {
 
 .disable-button{
     background-color: #807d7d;
-    transition: all .2s;
     &:hover{
         background-color: #555;
     }
@@ -66,7 +69,6 @@ button {
     height: 40px;
     margin-right: 8px;
     float: right;
-    transition: transform 0.2s;
 }
 
 button:hover{
@@ -90,14 +92,18 @@ button:hover{
         font-size: small;
         display: block;
         padding: 5px 0;
-        p{
-            display: inline;
-        }
-        width: max-content;
-        input{
-            margin: 0;
-        }
     }
+}
+
+.lgpd-box{
+    display: inline-block;
+    vertical-align: middle;
+    scale: 1.2;
+}
+
+.agreement{
+    display: inline-block;
+    vertical-align: middle;
 }
 
 form{
