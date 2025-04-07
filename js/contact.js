@@ -1,10 +1,8 @@
 const sendButton = document.querySelector('form button');
 
 function checkContactMethod(ev){
-    console.log(firstname.value);
-
-    // remove a alteração da tela padrão do form
     ev.preventDefault()
+    // remove a alteração da tela padrão do form
     console.log(termBtn.value)
 
     const contactOption = document.getElementById('select-contact');
@@ -18,9 +16,9 @@ function checkContactMethod(ev){
 function enableButton(el){
     if(el.checked){
         sendButton.classList.remove('disable-button');
-        sendButton.disabled = true;
+        sendButton.disabled = false;
         return;
     }
     sendButton.classList.add('disable-button')
-    sendButton.disabled = false;
+    sendButton.disabled = true;
 }
